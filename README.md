@@ -19,7 +19,9 @@ That's it!
 ## Installation
 ### Docker
 
-Go the root folder of the project and simply run:
+The Docker Compose file uses a network called `local` to spin up the container, which you likely don't have. You can create it by typing `sudo docker network create local` or change the name of the network in `docker-compose.yml` to match a network of your choice.
+
+Once the network is ready, go the root folder of the project and simply run:
 
 ```shell
 sudo docker compose up -d
