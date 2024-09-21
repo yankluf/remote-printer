@@ -29,7 +29,7 @@ sudo docker compose up -d
 
 Make sure that Python and Pip are installed in the machine by running `python --version` and `pip --version`. Then, go the root folder of the project and run:
 
-´´´
+```
 # Create the environment  
 python -m venv env
 # Activate the environment  
@@ -38,7 +38,7 @@ source env/bin/activate
 pip install -r requirements.txt
 # Launch the service  
 python main.py
-´´´
+```
 
 ## Limitations
 
