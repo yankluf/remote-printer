@@ -1,0 +1,16 @@
+services:
+  printer:
+    build: .
+    image: remote-printer:1.0
+    container_name: remote_printer
+    restart: unless-stopped
+    networks:
+      - local
+    volumes:
+      - /run/cups/cups.sock:/run/cups/cups.sock
+    command: python main.py
+    
+
+networks:
+  local:
+    external: true
