@@ -21,7 +21,7 @@ That's it!
 
 Go the root folder of the project and simply run:
 
-```tcsh
+```nu-script
 sudo docker compose up -d
 ```
 
@@ -29,7 +29,7 @@ sudo docker compose up -d
 
 Make sure that Python and Pip are installed in the machine by running `python --version` and `pip --version`. Then, go the root folder of the project and run:
 
-```tcsh
+```nu-script
 # Create the environment  
 python -m venv env
 # Activate the environment  
