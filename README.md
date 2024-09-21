@@ -8,7 +8,7 @@ First, you need to have a CUPS server installed on the host machine, with a defa
 
 Next, download this repository and create an `.env` file in the root folder of the project with the following environment variables:
 
-```shell
+```dotenv
 EMAIL_SERVER=youremail.serverurl.com
 EMAIL_ADDRESS=youremail@address.com
 EMAIL_PASSWORD=yourgreatpassword
@@ -21,7 +21,7 @@ That's it!
 
 Go the root folder of the project and simply run:
 
-```shell
+```fish
 sudo docker compose up -d
 ```
 
@@ -29,7 +29,7 @@ sudo docker compose up -d
 
 Make sure that Python and Pip are installed in the machine by running `python --version` and `pip --version`. Then, go the root folder of the project and run:
 
-```shell
+```fish
 # Create the environment  
 python -m venv env
 # Activate the environment  
