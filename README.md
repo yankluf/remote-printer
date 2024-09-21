@@ -8,7 +8,7 @@ First, you need to have a CUPS server installed on the host machine, with a defa
 
 Next, download this repository and create an `.env` file in the root folder of the project with the following environment variables:
 
-```powershell
+```shell
 EMAIL_SERVER=youremail.serverurl.com
 EMAIL_ADDRESS=youremail@address.com
 EMAIL_PASSWORD=yourgreatpassword
